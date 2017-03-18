@@ -6,7 +6,7 @@ import Link from './Link';
 export default class Gallery extends Component {
   render() {
     return (
-      <div className="max-width-2">
+      <div className="max-width-3">
         <GalleryItem  src="img/static-circles.gif" />
         <div className="mb4">Pupil</div>
 
