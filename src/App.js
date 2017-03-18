@@ -18,7 +18,9 @@ class App extends Component {
           Created by <Link href="http://philipcdavis.com">Philip Davis</Link> &#8226;
           Built with <Link href="https://d3js.org">D3.js</Link>
         </div>
-        <p className="mb4 mt3 h5 max-width-2">If you would like to read more about building generative art, read my blog post on the subject. If you would like to learn D3.js for yourself, check out <Link href="https://learningd3.com">Learning D3.js</Link></p>
+        <p className="mb4 mt3 h5 max-width-2">
+          If you would like to read more about building generative art, I have a <Link href="https://learningd3.com/blog/generative-art">blog post</Link> on the subject. 
+          If you would like to learn D3.js for yourself, check out <Link href="https://learningd3.com">Learning D3.js</Link></p>
         <Gallery />
       </div>
     );
