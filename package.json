@@ -2,17 +2,23 @@
   "name": "generative-art",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://philipcdavis.github.io/generative-art",
   "devDependencies": {
+    "gh-pages": "^0.12.0",
     "react-scripts": "0.9.5",
-    "react-snapshot": "^1.0.4"
+    "styled-components": "^1.4.4"
   },
   "dependencies": {
+    "basscss": "8.0.2",
+    "basscss-responsive-margin": "^1.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
